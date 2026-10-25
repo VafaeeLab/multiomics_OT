@@ -1,0 +1,3 @@
+dataset,regime,pair_type,tissue,species,n_cells_mod1,n_cells_mod2,n_cell_types,modality_1,modality_2,accession,source_study,reference
+mutoD2RNAATAC,diagonal,rna_atac,adult kidney,human,3660,2385,10,RNA (SCTransform),ATAC gene activity,GEO GSE151302,Muto et al. 2021,"Muto Y, et al. Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney. Nature Communications 12, 2190 (2021)."
+trevinoR3RNAATAC,diagonal,rna_atac,developing cerebral cortex,human,1028,1027,,RNA (SCTransform),ATAC gene activity,GEO GSE162170,Trevino et al. 2021,"Trevino AE, et al. Chromatin and gene-regulatory dynamics of the developing human cerebral cortex at single-cell resolution. Cell 184, 5053-5069 (2021)."

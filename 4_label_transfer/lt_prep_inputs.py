@@ -6,7 +6,7 @@ benchmark. This script therefore builds its OWN bundle, under
 
     runs_label_transfer/_lt_inputs/<dataset>/
 
-from Sample_dataset, which holds the normalised matrices and
+from data, which holds the normalised matrices and
 (obs_normalized.csv, for the labels). It does not touch runs_data_integration,
 Results/prepared_input or runs_integration at any point.
 
@@ -45,7 +45,7 @@ MAP = json.load(open(f"{P}/1_coupling_inference/foscttm_input_map.json"))
 
 def build(ds, force=False):
     v = MAP[ds]
-    src = f"{P}/Sample_dataset/{ds}"
+    src = f"{P}/data/{ds}"
     out = f"{OUT_ROOT}/{ds}"
     if os.path.exists(f"{out}/combined_log.mtx") and not force:
         return "skip", out
@@ -53,7 +53,7 @@ def build(ds, force=False):
 
     # Labels come from the obs that matches the NORMALISED matrices. The
     # count-level obs.csv lists pre-QC cells and would mislabel the rows.
-    obs = pd.read_csv(f"{P}/Sample_dataset/{ds}/obs_normalized.csv")
+    obs = pd.read_csv(f"{P}/data/{ds}/obs_normalized.csv")
     lab = {}
     for m in ("mod1", "mod2"):
         sub = obs[obs.modality == m][["cell_id", "cell_type"]].copy()

@@ -78,8 +78,8 @@ export PY=~/miniconda3/envs/multiomics_ot/bin/python
 ./run_example.sh
 ```
 
-The results of that run are already in this repository, so you can compare what
-you get against what you should get.
+Results are not shipped with the repository; the run creates them. The numbers
+you should get are listed under **What the sample results look like** below.
 
 ---
 
@@ -95,7 +95,7 @@ export DI_ROOT=$PROJECT_ROOT/Results/Data_integration_results
 export LT_ROOT=$PROJECT_ROOT/Results/Label_transfer_results
 
 DS=mutoD2RNAATAC
-PAIR=$PROJECT_ROOT/Sample_dataset/$DS
+PAIR=$PROJECT_ROOT/data/$DS
 BASE=$OT_ROOT/diagonal/rna-atac/$DS
 PREP=$PROJECT_ROOT/Results/prepared_input/closedset/$DS
 ```
@@ -266,8 +266,8 @@ paper used.
 
 | Folder | Cells | Tissue | Accession | Source study |
 |---|---|---|---|---|
-| `Sample_dataset/mutoD2RNAATAC/` | 3,660 RNA and 2,385 ATAC, 10 kidney cell types | human adult kidney | GEO **GSE151302** | Muto et al., *Nature Communications*, 2021 |
-| `Sample_dataset/trevinoR3RNAATAC/` | 1,028 RNA and 1,027 ATAC | developing human cerebral cortex | GEO **GSE162170** | Trevino et al., *Cell*, 2021 |
+| `data/mutoD2RNAATAC/` | 3,660 RNA and 2,385 ATAC, 10 kidney cell types | human adult kidney | GEO **GSE151302** | Muto et al., *Nature Communications*, 2021 |
+| `data/trevinoR3RNAATAC/` | 1,028 RNA and 1,027 ATAC | developing human cerebral cortex | GEO **GSE162170** | Trevino et al., *Cell*, 2021 |
 
 You are welcome to use either one. `run_example.sh` runs the kidney pair by
 default, because it shows every part of the method working. Change `DS` near the
@@ -346,7 +346,7 @@ mixing. We report it rather than hide it.
 Each dataset pair needs one folder with seven files:
 
 ```
-Sample_dataset/<your_dataset>/
+data/<your_dataset>/
     mod1_normalized.mtx              modality 1, genes by cells
     mod2_normalized.mtx              modality 2, genes by cells
     mod1_barcodes_normalized.tsv     cell names of modality 1
@@ -382,8 +382,8 @@ patterns so you can see what is expected.
 | `3_data_integration/` | integration runners, DI-ElasticFlow, and wrappers for the published tools |
 | `4_label_transfer/` | label-transfer runners, LT-BlendGate, and wrappers for the published tools |
 | `model_selection/` | the tuned settings for all eight couplings and all twenty-two tools |
-| `Sample_dataset/` | one small dataset pair you can run immediately |
-| `Results/` | what that pair produces, so you can check your own run |
+| `data/` | two small dataset pairs, with their accessions in `data/datasets.csv` |
+| `Results/` | created on the first run; not shipped with the repository |
 
 Four scripts run the whole benchmark rather than one pair, and submit cluster
 jobs: `submit_couplings.py`, `submit_ambiguity_lmethod.py`, `submit_di_78.py`

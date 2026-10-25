@@ -167,10 +167,10 @@ def main():
     n1, n2 = G.shape
     print(f"[{a.dataset} / {a.coupling}] {reg}/{pt}  gamma={G.shape}", flush=True)
 
-    d = f"{P}/Sample_dataset/{a.dataset}"
+    d = f"{P}/data/{a.dataset}"
     X1 = load_norm(f"{d}/mod1_normalized.mtx")
     X2 = load_norm(f"{d}/mod2_normalized.mtx")
-    obs = pd.read_csv(f"{P}/Sample_dataset/{a.dataset}"
+    obs = pd.read_csv(f"{P}/data/{a.dataset}"
                       "/obs_normalized.csv")
     o1 = obs[obs.modality == "mod1"]
     o2 = obs[obs.modality == "mod2"]

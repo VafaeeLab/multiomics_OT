@@ -331,7 +331,7 @@ def main():
     ref_mask1 = ref_mask2 = None
     if reg == "coassay":
         vv = json.load(open(f"{P}/1_coupling_inference/foscttm_input_map.json"))[ds]
-        obs = pd.read_csv(f"{P}/Sample_dataset/{ds}/obs_normalized.csv")
+        obs = pd.read_csv(f"{P}/data/{ds}/obs_normalized.csv")
         split_ids = obs[obs.modality == "mod1"].cell_id.astype(str).to_numpy()
         rs0 = np.random.RandomState(0)
         is_ref = np.zeros(len(split_ids), bool)

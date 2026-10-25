@@ -3,7 +3,7 @@
 #
 # By default it uses mutoD2RNAATAC, a diagonal RNA-ATAC pair of human adult
 # kidney with 3,660 cells in modality 1 and 2,385 in modality 2. A second pair,
-# trevinoR3RNAATAC, is also included. Both are already in Sample_dataset/.
+# trevinoR3RNAATAC, is also included. Both are already in data/.
 #
 #     ./run_example.sh
 #
@@ -28,7 +28,7 @@ export LT_ROOT="$CODE/Results/Label_transfer_results"
 export PYTHONUNBUFFERED=1
 
 DS=mutoD2RNAATAC           # or trevinoR3RNAATAC, the other included pair
-PAIR="$CODE/Sample_dataset/$DS"
+PAIR="$CODE/data/$DS"
 OBS="$PAIR/obs_normalized.csv"
 BASE="$OT_ROOT/diagonal/rna-atac/$DS"
 PREP="$CODE/Results/prepared_input/closedset/$DS"

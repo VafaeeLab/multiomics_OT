@@ -4,7 +4,7 @@
 One job per dataset pair does the whole chain, so nothing has to be sequenced
 across jobs:
 
-    Sample_dataset/<ds>
+    data/<ds>
         -> runs_label_transfer/_lt_inputs/<ds>/            (lt_prep_inputs.py)
         -> runs_label_transfer/_lt_embeddings/attention/<ds>/embeddings.csv
         -> runs_label_transfer/_lt_embeddings/transformer/<ds>/embeddings.csv

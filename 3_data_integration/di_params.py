@@ -69,7 +69,7 @@ def resolve(ds):
     v = MAP[ds]
     reg, ptr = v["regime"], v["pair_type"]
     prep = _prep_dir(ds, reg)
-    d = f"{P}/Sample_dataset/{ds}"
+    d = f"{P}/data/{ds}"
 
     o = pd.read_csv(f"{prep}/combined_log_obs.csv")
     n1 = int((o.modality == "mod1").sum())

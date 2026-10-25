@@ -142,7 +142,7 @@ def main():
     m = json.load(open(f"{P}/1_coupling_inference/foscttm_input_map.json"))[ds]
     reg, ptr = m["regime"], m["pair_type"]
     ptl = PTL[ptr]
-    d = f"{P}/Sample_dataset/{ds}"
+    d = f"{P}/data/{ds}"
     b1 = [l.strip() for l in open(f"{d}/mod1_barcodes_normalized.tsv") if l.strip()]
     b2 = [l.strip() for l in open(f"{d}/mod2_barcodes_normalized.tsv") if l.strip()]
     obs = pd.read_csv(f"{d}/obs.csv", dtype=str)
