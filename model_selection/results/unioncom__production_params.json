@@ -1,0 +1,33 @@
+{
+ "_source": "GPU probe + refinement, 108 runs, 0 collapsed",
+ "_mean_foscttm_on_probe_datasets": 0.3379,
+ "_supersedes": "uc_greedy coordinate descent (eps=0.02, collapsed)",
+ "rna-adt": {
+  "kmax": 5,
+  "epsilon": 0.0005,
+  "beta": 0.1,
+  "rho": 5,
+  "output_dim": 8
+ },
+ "rna-atac": {
+  "kmax": 5,
+  "epsilon": 0.0005,
+  "beta": 0.1,
+  "rho": 5,
+  "output_dim": 8
+ },
+ "rna-methylome": {
+  "kmax": 5,
+  "epsilon": 0.0005,
+  "beta": 0.1,
+  "rho": 5,
+  "output_dim": 8
+ },
+ "rna-rna": {
+  "kmax": 5,
+  "epsilon": 0.0005,
+  "beta": 0.1,
+  "rho": 5,
+  "output_dim": 8
+ }
+}

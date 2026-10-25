@@ -1,0 +1,32 @@
+{
+  "dataset_id": "trevinoR3RNAATAC",
+  "n_mod1": 1028,
+  "n_mod2": 1027,
+  "n_features_mod1_original": 24375,
+  "n_features_mod2_original": 52146,
+  "n_features_aligned": 22194,
+  "feature_mode_requested": "shared",
+  "feature_mode_used": "shared_feature_names",
+  "x1": "/g/data/yr31/mp8713/project_data_integration/data_diagonal/rnaatac_build/trevinoR3RNAATAC/mod1.mtx",
+  "x2": "/g/data/yr31/mp8713/project_data_integration/data_diagonal/rnaatac_build/trevinoR3RNAATAC/mod2.mtx",
+  "labels1": "/g/data/yr31/mp8713/project_data_integration/data_diagonal/rnaatac_build/trevinoR3RNAATAC/labels1.csv",
+  "labels2": "/g/data/yr31/mp8713/project_data_integration/data_diagonal/rnaatac_build/trevinoR3RNAATAC/labels2.csv",
+  "dataset": "trevinoR3RNAATAC",
+  "regime": "diagonal",
+  "pair_type": "rna_atac",
+  "n_features_mod1": 22194,
+  "n_features_mod2": 22194,
+  "cell_types": [
+    "GluN2",
+    "GluN3",
+    "GluN4",
+    "IN1",
+    "IN2",
+    "RG",
+    "nIPC/GluN1"
+  ],
+  "n_cell_types": 7,
+  "source_mod1": "data_diagonal/prepared/closedset/trevinoR3RNAATAC/mod1_raw.npz",
+  "source_mod2": "data_diagonal/prepared/closedset/trevinoR3RNAATAC/mod2_raw.npz",
+  "verified_integer_counts": true
+}

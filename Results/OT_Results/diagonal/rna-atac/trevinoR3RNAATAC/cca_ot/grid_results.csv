@@ -1,0 +1,5 @@
+label,n,foscttm_midrank,foscttm_strict,mrr,median_rank,hungarian,paired,recall_at_1,recall_at_5,recall_at_10,recall_at_50,model,dataset,fuse,d_cca,mod2_kind
+fuse_meanrank,1028,,,,,,False,,,,,diffusion_v9,trevinoR3RNAATAC,meanrank,30,gene_activity
+fuse_w0.3,1028,,,,,,False,,,,,diffusion_v9,trevinoR3RNAATAC,w0.3,30,gene_activity
+fuse_w0.5,1028,,,,,,False,,,,,diffusion_v9,trevinoR3RNAATAC,w0.5,30,gene_activity
+fuse_w0.7,1028,,,,,,False,,,,,diffusion_v9,trevinoR3RNAATAC,w0.7,30,gene_activity

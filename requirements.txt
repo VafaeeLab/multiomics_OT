@@ -1,0 +1,13 @@
+# For an existing Python 3.10 environment:
+#     pip install -r requirements.txt
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+torch
+scanpy
+anndata
+igraph
+leidenalg
+openpyxl

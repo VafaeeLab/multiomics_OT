@@ -1,0 +1,19 @@
+{
+  "rna": "/Users/mpir0002/Desktop/Submission/NMI_journal/Code_for_review/Sample_dataset/trevinoR3RNAATAC/mod1_normalized.mtx",
+  "atac": "/Users/mpir0002/Desktop/Submission/NMI_journal/Code_for_review/Sample_dataset/trevinoR3RNAATAC/mod2_normalized.mtx",
+  "outdir": "/Users/mpir0002/Desktop/Submission/NMI_journal/Code_for_review/Results/OT_Results/diagonal/rna-atac/trevinoR3RNAATAC/cca_ot",
+  "dataset_id": "trevinoR3RNAATAC",
+  "rna_orientation": "feature_by_cell",
+  "atac_orientation": "feature_by_cell",
+  "mod2_kind": "gene_activity",
+  "fuse_grid": "meanrank,w0.3,w0.5,w0.7",
+  "n_hvg": 2000,
+  "ot_eps": 0.05,
+  "d_cca": 30,
+  "k_anchor": 20,
+  "n_full": 100,
+  "n_pcs_shared": 30,
+  "no_log1p": false,
+  "seed": 42,
+  "gamma_common": ""
+}

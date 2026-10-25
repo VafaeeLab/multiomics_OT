@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# the matrices ship compressed; the unpacked copies are rebuilt on first run
+Sample_dataset/*/mod1_normalized.mtx
+Sample_dataset/*/mod2_normalized.mtx
+
+# intermediates the pipeline rebuilds
+Results/prepared_input/
+Results/Label_transfer_results/_lt_inputs/

@@ -1,0 +1,23 @@
+# Create the environment with:
+#     conda env create -f environment.yml
+#     conda activate multiomics_ot
+#
+# These are the versions the pipeline was last run and tested with.
+name: multiomics_ot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scipy
+      - scikit-learn
+      - matplotlib
+      - torch
+      - scanpy
+      - anndata
+      - igraph
+      - leidenalg
+      - openpyxl

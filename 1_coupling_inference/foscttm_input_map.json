@@ -1,0 +1,704 @@
+{
+  "BF21": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/BF21/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/BF21/mod1_normalized.mtx"
+  },
+  "BM27": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/BM27/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/BM27/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s1d1": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s1d1/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s1d1/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s1d2": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s1d2/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s1d2/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s1d3": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s1d3/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s1d3/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s2d1": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s2d1/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s2d1/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s2d4": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s2d4/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s2d4/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s2d5": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s2d5/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s2d5/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s3d1": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s3d1/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s3d1/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s3d6": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s3d6/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s3d6/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s3d7": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s3d7/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s3d7/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s4d1": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s4d1/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s4d1/mod1_normalized.mtx"
+  },
+  "CITE_BMMC_s4d9": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s4d9/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/CITE_BMMC_s4d9/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s1d1": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s1d1/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s1d1/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s1d2": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s1d2/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s1d2/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s1d3": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s1d3/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s1d3/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s2d1": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s2d1/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s2d1/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s2d4": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s2d4/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s2d4/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s2d5": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s2d5/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s2d5/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s3d10": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s3d10/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s3d10/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s3d3": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s3d3/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s3d3/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s4d1": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s4d1/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s4d1/mod1_normalized.mtx"
+  },
+  "MULTIOME_BMMC_s4d8": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s4d8/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_BMMC_s4d8/mod1_normalized.mtx"
+  },
+  "MULTIOME_CORTEX": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_CORTEX/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/MULTIOME_CORTEX/mod1_normalized.mtx"
+  },
+  "SCICAR_KIDNEY": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/SCICAR_KIDNEY/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_atac/SCICAR_KIDNEY/mod1_normalized.mtx"
+  },
+  "WF26": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/WF26/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/WF26/mod1_normalized.mtx"
+  },
+  "WM34": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/WM34/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_adt",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_adt/WM34/mod1_normalized.mtx"
+  },
+  "cerebrumRNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/cerebrumRNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/cerebrumRNAATAC/mod1_normalized.mtx"
+  },
+  "fallopianD3D4RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD3D4RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD3D4RNARNA/mod1_normalized.mtx"
+  },
+  "fallopianD3D5RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD3D5RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD3D5RNARNA/mod1_normalized.mtx"
+  },
+  "fallopianD3D6RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD3D6RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD3D6RNARNA/mod1_normalized.mtx"
+  },
+  "fallopianD3RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD3RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD3RNAATAC/mod1_normalized.mtx"
+  },
+  "fallopianD4D5RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD4D5RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD4D5RNARNA/mod1_normalized.mtx"
+  },
+  "fallopianD4D6RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD4D6RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD4D6RNARNA/mod1_normalized.mtx"
+  },
+  "fallopianD4RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD4RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD4RNAATAC/mod1_normalized.mtx"
+  },
+  "fallopianD5D6RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD5D6RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/fallopianD5D6RNARNA/mod1_normalized.mtx"
+  },
+  "fallopianD5RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD5RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD5RNAATAC/mod1_normalized.mtx"
+  },
+  "fallopianD6RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD6RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/fallopianD6RNAATAC/mod1_normalized.mtx"
+  },
+  "heartRNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/heartRNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/heartRNAATAC/mod1_normalized.mtx"
+  },
+  "humanRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/humanRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/humanRNAmC/mod1_normalized.mtx"
+  },
+  "kidneyRNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/kidneyRNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/kidneyRNAATAC/mod1_normalized.mtx"
+  },
+  "liverRNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/liverRNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/liverRNAATAC/mod1_normalized.mtx"
+  },
+  "mopF003x2CRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF003x2CRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF003x2CRNAmC/mod1_normalized.mtx"
+  },
+  "mopF004x3CRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF004x3CRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF004x3CRNAmC/mod1_normalized.mtx"
+  },
+  "mopF006x4BRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF006x4BRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF006x4BRNAmC/mod1_normalized.mtx"
+  },
+  "mopF008x5DRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF008x5DRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mopF008x5DRNAmC/mod1_normalized.mtx"
+  },
+  "mopP1P2RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP1P2RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP1P2RNARNA/mod1_normalized.mtx"
+  },
+  "mopP1P3RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP1P3RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP1P3RNARNA/mod1_normalized.mtx"
+  },
+  "mopP1P4RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP1P4RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP1P4RNARNA/mod1_normalized.mtx"
+  },
+  "mopP1RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP1RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP1RNAATAC/mod1_normalized.mtx"
+  },
+  "mopP2P3RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP2P3RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP2P3RNARNA/mod1_normalized.mtx"
+  },
+  "mopP2P4RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP2P4RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP2P4RNARNA/mod1_normalized.mtx"
+  },
+  "mopP2RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP2RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP2RNAATAC/mod1_normalized.mtx"
+  },
+  "mopP3P4RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP3P4RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mopP3P4RNARNA/mod1_normalized.mtx"
+  },
+  "mopP3RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP3RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP3RNAATAC/mod1_normalized.mtx"
+  },
+  "mopP4RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP4RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mopP4RNAATAC/mod1_normalized.mtx"
+  },
+  "mouseRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mouseRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_meth/mouseRNAmC/mod1_normalized.mtx"
+  },
+  "mutoD1D2RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD1D2RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD1D2RNARNA/mod1_normalized.mtx"
+  },
+  "mutoD1D3RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD1D3RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD1D3RNARNA/mod1_normalized.mtx"
+  },
+  "mutoD1D4RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD1D4RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD1D4RNARNA/mod1_normalized.mtx"
+  },
+  "mutoD1RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD1RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD1RNAATAC/mod1_normalized.mtx"
+  },
+  "mutoD2D3RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD2D3RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD2D3RNARNA/mod1_normalized.mtx"
+  },
+  "mutoD2D4RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD2D4RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD2D4RNARNA/mod1_normalized.mtx"
+  },
+  "mutoD2RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD2RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD2RNAATAC/mod1_normalized.mtx"
+  },
+  "mutoD3D4RNARNA": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD3D4RNARNA/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_rna",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_rna/mutoD3D4RNARNA/mod1_normalized.mtx"
+  },
+  "mutoD3RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD3RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD3RNAATAC/mod1_normalized.mtx"
+  },
+  "mutoD4RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD4RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/mutoD4RNAATAC/mod1_normalized.mtx"
+  },
+  "scicarR1RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/scicarR1RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/scicarR1RNAATAC/mod1_normalized.mtx"
+  },
+  "scicarR2RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/scicarR2RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/scicarR2RNAATAC/mod1_normalized.mtx"
+  },
+  "scnmtRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_meth/scnmtRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_meth/scnmtRNAmC/mod1_normalized.mtx"
+  },
+  "shareP5RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP5RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP5RNAATAC/mod1_normalized.mtx"
+  },
+  "shareP6RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP6RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP6RNAATAC/mod1_normalized.mtx"
+  },
+  "shareP7RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP7RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP7RNAATAC/mod1_normalized.mtx"
+  },
+  "shareP8RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP8RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/shareP8RNAATAC/mod1_normalized.mtx"
+  },
+  "snmc2tRNAmC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_meth/snmc2tRNAmC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_meth",
+    "regime": "coassay",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/coassay/rna_meth/snmc2tRNAmC/mod1_normalized.mtx"
+  },
+  "trevinoR1RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/trevinoR1RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/trevinoR1RNAATAC/mod1_normalized.mtx"
+  },
+  "trevinoR2RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/trevinoR2RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/trevinoR2RNAATAC/mod1_normalized.mtx"
+  },
+  "trevinoR3RNAATAC": {
+    "atac": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/trevinoR3RNAATAC/mod2_normalized.mtx",
+    "kind": "gene_activity",
+    "ori1": "feature_by_cell",
+    "ori2": "feature_by_cell",
+    "pair_type": "rna_atac",
+    "regime": "diagonal",
+    "rna": "/g/data/yr31/mp8713/project_data_integration/Data/dataset_pairs/diagonal/rna_atac/trevinoR3RNAATAC/mod1_normalized.mtx"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "trevinoR3RNAATAC",
+  "arch": "AnchorAE",
+  "epochs": 120,
+  "lat": 50,
+  "align": "mnn",
+  "lam_mnn": 1.0,
+  "lam_mmd": 0.1,
+  "mnn_k": 15,
+  "gate": 0.1,
+  "mnn_pairs": 4988,
+  "n_cells": 2055,
+  "dim": 50,
+  "written": "2026-10-26 01:49:27"
+}
