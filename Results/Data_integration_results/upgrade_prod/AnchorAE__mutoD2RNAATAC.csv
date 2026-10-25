@@ -1,0 +1,5 @@
+tool,dataset,regime,pair_type,coupling,detector,arm,lam,pct_removed,n,nmi,ari,asw_label,batch_asw,ilisi
+AnchorAE,mutoD2RNAATAC,diagonal,rna-atac,none,pseudo_label_pseudo_label,baseline,0.75,0.0,6045,0.7454988581374854,0.615663773655519,0.5917005644994531,0.8395919850010515,0.6167360735708768
+AnchorAE,mutoD2RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,upgraded,0.75,0.0,6045,0.7808544230266963,0.6982265880818846,0.5972455392855907,0.8481897564995476,0.836911605944785
+AnchorAE,mutoD2RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,removed,0.75,28.49,4323,0.7406748748005009,0.5420561871223212,0.6104732807323996,0.8364168055453225,0.7766277032988728
+AnchorAE,mutoD2RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,rand_removed,0.75,28.49,4323,0.7184974077039451,0.6018943758519993,0.5988489582217523,0.8419922585758286,0.7957893310414669

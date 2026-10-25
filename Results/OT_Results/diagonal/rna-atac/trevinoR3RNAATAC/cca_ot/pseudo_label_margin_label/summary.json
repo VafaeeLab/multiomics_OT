@@ -17,30 +17,30 @@
   "one_sided_labels": true,
   "n_mod1": 1028,
   "n_mod2": 1027,
-  "knee_mod1": 387,
-  "knee_mod2": 375,
-  "pct_knee_mod1": 37.65,
-  "pct_knee_mod2": 36.51,
-  "n_ambiguous_mod1": 387,
-  "n_ambiguous_mod2": 375,
-  "mean_score_mod1": 0.7818338003566572,
-  "mean_score_mod2": 0.7526074501045897,
+  "knee_mod1": 497,
+  "knee_mod2": 371,
+  "pct_knee_mod1": 48.35,
+  "pct_knee_mod2": 36.12,
+  "n_ambiguous_mod1": 497,
+  "n_ambiguous_mod2": 371,
+  "mean_score_mod1": 0.7997733591160392,
+  "mean_score_mod2": 0.7717860084225301,
   "diagnostics_mod1": {
     "k": 10.0,
-    "pct_lmethod_exp": 37.65,
-    "pct_chord_exp": 39.01,
-    "pct_lmethod_raw": 56.42,
-    "pct_chord_raw": 66.63,
-    "rule_gap_pp": 1.36,
+    "pct_lmethod_exp": 48.35,
+    "pct_chord_exp": 47.86,
+    "pct_lmethod_raw": 62.16,
+    "pct_chord_raw": 70.91,
+    "rule_gap_pp": 0.49,
     "rules_agree_2pp": true
   },
   "diagnostics_mod2": {
     "k": 10.0,
-    "pct_lmethod_exp": 36.51,
-    "pct_chord_exp": 33.4,
-    "pct_lmethod_raw": 88.8,
-    "pct_chord_raw": 83.25,
-    "rule_gap_pp": 3.12,
+    "pct_lmethod_exp": 36.12,
+    "pct_chord_exp": 39.14,
+    "pct_lmethod_raw": 82.47,
+    "pct_chord_raw": 82.28,
+    "rule_gap_pp": 3.02,
     "rules_agree_2pp": false
   },
   "removal_pcts": [
@@ -64,5 +64,5 @@
     90,
     95
   ],
-  "seconds": 0.6
+  "seconds": 0.5
 }

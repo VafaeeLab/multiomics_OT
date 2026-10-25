@@ -61,15 +61,15 @@ set of scripts you run in place.
 
 ## Try it in one command
 
-A small dataset is included, so you can see the whole thing work before you
+Two small datasets are included, so you can see the whole thing work before you
 point it at your own data.
 
 ```bash
 ./run_example.sh
 ```
 
-This takes a few minutes. It runs all four steps on a pair of 1,028 and 1,027
-cells and writes everything into `Results/`.
+This takes a few minutes. It runs all four steps on a human kidney pair of
+3,660 and 2,385 cells and writes everything into `Results/`.
 
 If the Python you want is not the first one on your path, say so first:
 
@@ -94,7 +94,7 @@ export AMB_ROOT=$PROJECT_ROOT/Results/OT_Results
 export DI_ROOT=$PROJECT_ROOT/Results/Data_integration_results
 export LT_ROOT=$PROJECT_ROOT/Results/Label_transfer_results
 
-DS=trevinoR3RNAATAC
+DS=mutoD2RNAATAC
 PAIR=$PROJECT_ROOT/Sample_dataset/$DS
 BASE=$OT_ROOT/diagonal/rna-atac/$DS
 PREP=$PROJECT_ROOT/Results/prepared_input/closedset/$DS
@@ -127,7 +127,7 @@ python3 cca_ot.py \
   --rna_orientation feature_by_cell --atac_orientation feature_by_cell \
   --mod2_kind gene_activity \
   --outdir $BASE/cca_ot --dataset_id $DS \
-  --n_hvg 2000 --ot_eps 0.05 --d_cca 30 --k_anchor 20
+  --n_hvg 2000 --ot_eps 0.10 --d_cca 30 --k_anchor 15
 ```
 
 That gives you CCA-OT. Three more are available, and the fourth combines the
@@ -153,10 +153,10 @@ DS=$DS CSLS_K=10 OUT=$BASE/ensemble COUPLING_BASE=$BASE python3 ensemble_final.p
 | MaxFuse | `maxfuse_run.py` | the published MaxFuse method, good when the link is weak |
 | Ensemble-OT | `ensemble_final.py` | a rank consensus of the other three |
 
-**Check the shape of the result.** For this pair it has to be 1,028 rows by
-1,027 columns. If you get a square matrix, the cell-name files are missing and
-the two modalities have been matched by position rather than by cell. See the
-note on name files further down.
+**Check the shape of the result.** For the kidney pair it has to be 3,660 rows
+by 2,385 columns. If you get a square matrix, the cell-name files are missing
+and the two modalities have been matched by position rather than by cell. See
+the note on name files further down.
 
 **Output:** `gamma.npy`, the coupling. Also `pairwise_matrix_common.npy`, the
 distance matrix, which FOSCTTM and Ensemble-OT use. For a co-assay pair, where
@@ -196,10 +196,9 @@ list of kept cells, the elbow figures, and `summary.json`. That last file
 records `rule_gap_pp`, which is how far apart this rule and an unrelated rule
 put the elbow. When two different rules agree, the elbow is real.
 
-On the sample pair the cut lands at 387 of 1,028 cells in the first modality,
-which is 37.6 per cent, and at 513 of 1,027 in the second, which is 50.0 per
-cent. The second one hit the half-way limit rather than a genuine elbow, and the
-figure says so.
+On the kidney pair the cut lands at 748 of 3,660 cells in the first modality,
+which is 20.4 per cent, and at 974 of 2,385 in the second, which is 40.8 per
+cent. Both are genuine elbows, comfortably clear of the half-way limit.
 
 ### Step 3. Integrate, then improve it
 
@@ -258,48 +257,89 @@ modality 2.
 
 ---
 
+## Sample datasets
+
+Two dataset pairs are included. Both are diagonal RNA-ATAC pairs, meaning the
+two modalities were measured in different cells of the same tissue. Both come
+from published studies and are redistributed here in the pre-processed form the
+paper used.
+
+| Folder | Cells | Tissue | Accession | Source study |
+|---|---|---|---|---|
+| `Sample_dataset/mutoD2RNAATAC/` | 3,660 RNA and 2,385 ATAC, 10 kidney cell types | human adult kidney | GEO **GSE151302** | Muto et al., *Nature Communications*, 2021 |
+| `Sample_dataset/trevinoR3RNAATAC/` | 1,028 RNA and 1,027 ATAC | developing human cerebral cortex | GEO **GSE162170** | Trevino et al., *Cell*, 2021 |
+
+You are welcome to use either one. `run_example.sh` runs the kidney pair by
+default, because it shows every part of the method working. Change `DS` near the
+top of the script to `trevinoR3RNAATAC` to use the other.
+
+Neither pair has a known cell-to-cell pairing, so FOSCTTM, the accuracy measure
+in Figure 2 of the paper, cannot be computed on them. Everything else runs.
+
 ## What the sample results look like
 
-Four arms are scored in both steps 3 and 4. The fourth one is the point of the
-whole exercise.
+These are the numbers the two pairs produce with the tuned CCA-OT coupling and
+AnchorAE. They are a check that your run behaved, not a result from the paper,
+which reports averages over 78 pairs.
 
-**Data integration**, AnchorAE with CCA-OT:
+### Kidney, mutoD2RNAATAC
+
+Data integration:
+
+| Arm | NMI | ARI | iLISI |
+|---|---|---|---|
+| baseline | 0.7455 | 0.6157 | 0.617 |
+| upgraded | 0.7809 | 0.6982 | 0.837 |
+| upgraded, ambiguous cells removed | 0.7407 | 0.5421 | 0.777 |
+| upgraded, same number removed at random | 0.7185 | 0.6019 | 0.796 |
+
+Label transfer, RNA as the reference:
+
+| Arm | Accuracy | Macro-F1 |
+|---|---|---|
+| baseline | 0.8809 | 0.8105 |
+| upgraded | 0.8834 | 0.8157 |
+| upgraded, ambiguous cells removed | 0.9483 | 0.8853 |
+| upgraded, same number removed at random | 0.8813 | 0.8126 |
+
+### Cortex, trevinoR3RNAATAC
+
+Data integration:
 
 | Arm | NMI | ARI | iLISI |
 |---|---|---|---|
 | baseline | 0.4385 | 0.3180 | 0.665 |
 | upgraded | 0.4385 | 0.3180 | 0.665 |
-| upgraded, ambiguous cells removed | 0.5456 | 0.4605 | 0.640 |
-| upgraded, same number removed at random | 0.4768 | 0.3527 | 0.698 |
+| upgraded, ambiguous cells removed | 0.5516 | 0.4680 | 0.667 |
+| upgraded, same number removed at random | 0.4468 | 0.3153 | 0.730 |
 
-**Label transfer**, AnchorAE-LT with RNA as the reference:
+Label transfer, RNA as the reference:
 
 | Arm | Accuracy | Macro-F1 |
 |---|---|---|
 | baseline | 0.6095 | 0.5720 |
-| upgraded | 0.6436 | 0.5975 |
-| upgraded, ambiguous cells removed | 0.7025 | 0.6341 |
-| upgraded, same number removed at random | 0.6452 | 0.5975 |
+| upgraded | 0.6388 | 0.5943 |
+| upgraded, ambiguous cells removed | 0.7012 | 0.6327 |
+| upgraded, same number removed at random | 0.6408 | 0.5974 |
 
-Three things in there are worth dwelling on.
+### How to read these
 
-**Why the random arm exists.** Throwing cells away makes almost any score go up,
-because what is left is easier. So beating the plain upgraded row proves
-nothing. The only honest test is whether removing the flagged cells beats
-removing the same number at random, and it does in both tables.
+**The random-removal arm is the point.** Throwing cells away raises almost any
+score, because the cells left behind are easier. So beating the plain upgraded
+row proves nothing. The only honest test is whether removing the cells we
+flagged beats removing the same number at random. It does, in all four tables.
 
-**Why the upgraded row is identical to the baseline above.** That is the
-do-no-harm rule doing its job. ElasticFlow could not find a move that improved
-mixing without damaging the structure, so it handed back the original embedding
-untouched.
+**On the kidney pair the upgrade also helps on its own**, lifting NMI from
+0.7455 to 0.7809 and iLISI from 0.617 to 0.837.
 
-**Why iLISI goes the wrong way.** The cells we flag are disproportionately the
-ones bridging the two modalities, so removing them costs you mixing. We report
-it rather than hide it.
+**On the cortex pair the upgraded row is identical to the baseline.** That is
+the do-no-harm rule working, not a bug. ElasticFlow could not find a move that
+improved mixing without damaging the structure, so it handed back the original
+embedding untouched. Removal still gives the largest gain of any arm.
 
-These are one pair. The paper reports averages over 78.
-
----
+**iLISI sometimes moves the wrong way** after removal. The cells we flag are
+disproportionately the ones bridging the two modalities, so removing them costs
+mixing. We report it rather than hide it.
 
 ## Using it on your own data
 

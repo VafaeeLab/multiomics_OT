@@ -1,8 +1,9 @@
 #!/bin/bash
 # Run the whole study on the example dataset pair.
 #
-# The pair is trevinoR3RNAATAC, a diagonal RNA-ATAC pair with 1,028 cells in
-# modality 1 and 1,027 in modality 2. The data are already in Sample_dataset/.
+# By default it uses mutoD2RNAATAC, a diagonal RNA-ATAC pair of human adult
+# kidney with 3,660 cells in modality 1 and 2,385 in modality 2. A second pair,
+# trevinoR3RNAATAC, is also included. Both are already in Sample_dataset/.
 #
 #     ./run_example.sh
 #
@@ -26,7 +27,7 @@ export DI_ROOT="$CODE/Results/Data_integration_results"
 export LT_ROOT="$CODE/Results/Label_transfer_results"
 export PYTHONUNBUFFERED=1
 
-DS=trevinoR3RNAATAC
+DS=mutoD2RNAATAC           # or trevinoR3RNAATAC, the other included pair
 PAIR="$CODE/Sample_dataset/$DS"
 OBS="$PAIR/obs_normalized.csv"
 BASE="$OT_ROOT/diagonal/rna-atac/$DS"
@@ -63,7 +64,7 @@ $PY cca_ot.py \
   --rna_orientation feature_by_cell --atac_orientation feature_by_cell \
   --mod2_kind gene_activity \
   --outdir "$BASE/cca_ot" --dataset_id "$DS" \
-  --n_hvg 2000 --ot_eps 0.05 --d_cca 30 --k_anchor 20
+  --n_hvg 2000 --ot_eps 0.10 --d_cca 30 --k_anchor 15
 
 step "step 2 of 4: ambiguity and elbow plot -> Results/OT_Results/"
 cd "$CODE/2_ambiguity_and_elbow"

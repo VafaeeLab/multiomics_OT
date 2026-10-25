@@ -1,0 +1,19 @@
+{
+  "label": "fuse_meanrank",
+  "n": 3660,
+  "foscttm_midrank": NaN,
+  "foscttm_strict": NaN,
+  "mrr": NaN,
+  "median_rank": NaN,
+  "hungarian": NaN,
+  "paired": false,
+  "recall_at_1": NaN,
+  "recall_at_5": NaN,
+  "recall_at_10": NaN,
+  "recall_at_50": NaN,
+  "model": "diffusion_v9",
+  "dataset": "mutoD2RNAATAC",
+  "fuse": "meanrank",
+  "d_cca": 30,
+  "mod2_kind": "gene_activity"
+}

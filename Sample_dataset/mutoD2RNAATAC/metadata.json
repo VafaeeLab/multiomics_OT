@@ -1,0 +1,63 @@
+{
+  "dataset_id": "closed_mutoD2RNAATAC",
+  "modalities": [
+    "RNA(SCT)",
+    "ATAC(geneactivity)"
+  ],
+  "n_mod1": 3660,
+  "n_mod2": 2385,
+  "n_genes": 3000,
+  "ref_types": [
+    "CNT",
+    "DCT",
+    "ENDO",
+    "ICA",
+    "ICB",
+    "MES_FIB",
+    "PC",
+    "PEC",
+    "PT",
+    "TAL"
+  ],
+  "query_types": [
+    "CNT",
+    "DCT",
+    "ENDO",
+    "ICA",
+    "ICB",
+    "MES_FIB",
+    "PC",
+    "PEC",
+    "PT",
+    "TAL"
+  ],
+  "openset_unknown": [],
+  "source_study": "muto",
+  "genome": "hg38",
+  "rna_batch": "8213a3f7-2437-4e8a-b836-caec33df901d",
+  "atac_batch": "8213a3f7-2437-4e8a-b836-caec33df901d",
+  "atac_source": "peaks->geneactivity",
+  "cell_type_floor": 50,
+  "subsample_cap_per_side": 5000,
+  "dataset": "mutoD2RNAATAC",
+  "regime": "diagonal",
+  "pair_type": "rna_atac",
+  "n_features_mod1": 3000,
+  "n_features_mod2": 3000,
+  "cell_types": [
+    "CNT",
+    "DCT",
+    "ENDO",
+    "ICA",
+    "ICB",
+    "MES_FIB",
+    "PC",
+    "PEC",
+    "PT",
+    "TAL"
+  ],
+  "n_cell_types": 10,
+  "source_mod1": "data_diagonal/prepared/closedset/mutoD2RNAATAC/mod1_raw.npz",
+  "source_mod2": "data_diagonal/prepared/closedset/mutoD2RNAATAC/mod2_raw.npz",
+  "verified_integer_counts": true
+}

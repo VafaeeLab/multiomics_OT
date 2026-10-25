@@ -1,0 +1,5 @@
+label,n,foscttm_midrank,foscttm_strict,mrr,median_rank,hungarian,paired,recall_at_1,recall_at_5,recall_at_10,recall_at_50,model,dataset,fuse,d_cca,mod2_kind
+fuse_meanrank,3660,,,,,,False,,,,,diffusion_v9,mutoD2RNAATAC,meanrank,30,gene_activity
+fuse_w0.3,3660,,,,,,False,,,,,diffusion_v9,mutoD2RNAATAC,w0.3,30,gene_activity
+fuse_w0.5,3660,,,,,,False,,,,,diffusion_v9,mutoD2RNAATAC,w0.5,30,gene_activity
+fuse_w0.7,3660,,,,,,False,,,,,diffusion_v9,mutoD2RNAATAC,w0.7,30,gene_activity

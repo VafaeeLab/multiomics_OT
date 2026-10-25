@@ -1,0 +1,9 @@
+tool,dataset,regime,pair_type,lt_set,direction,reference_modality,query_modality,coupling,detector,arm,lam,pct_removed,n,accuracy,balanced_accuracy,macro_f1,weighted_f1
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,A_ref_mod1,mod1_to_mod2,mod1,mod2,cca_ot,pseudo_label_margin_label,baseline,0.5,0.0,2385,0.8809224318658281,0.7919642043303201,0.8104798132380724,0.8721755707003647
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,A_ref_mod1,mod1_to_mod2,mod1,mod2,cca_ot,pseudo_label_margin_label,upgraded,0.5,0.0,2385,0.8834381551362683,0.7975388931419303,0.815689863794074,0.874651744855863
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,A_ref_mod1,mod1_to_mod2,mod1,mod2,cca_ot,pseudo_label_margin_label,amb_removed,0.5,31.03,1645,0.9483282674772037,0.8571628377199637,0.885299931766656,0.945384482323638
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,A_ref_mod1,mod1_to_mod2,mod1,mod2,cca_ot,pseudo_label_margin_label,rand_removed,0.5,31.03,1645,0.8812563323201621,0.7948048506491325,0.8125939303259999,0.8723628652163543
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,B_ref_mod2,mod2_to_mod1,mod2,mod1,cca_ot,margin_label_pseudo_label,baseline,0.5,0.0,3660,0.7065573770491803,0.4965575921058948,0.5125702596137481,0.6270012958644052
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,B_ref_mod2,mod2_to_mod1,mod2,mod1,cca_ot,margin_label_pseudo_label,upgraded,0.5,0.0,3660,0.7240437158469946,0.5302072116173603,0.5526684102573858,0.6513870194054888
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,B_ref_mod2,mod2_to_mod1,mod2,mod1,cca_ot,margin_label_pseudo_label,amb_removed,0.5,16.56,3054,0.7462344466273739,0.5423216067292422,0.5660413645226943,0.6814495561916716
+AnchorAE-LT,mutoD2RNAATAC,diagonal,rna-atac,B_ref_mod2,mod2_to_mod1,mod2,mod1,cca_ot,margin_label_pseudo_label,rand_removed,0.5,16.56,3054,0.7245142981881685,0.5278660032316127,0.5497600917679778,0.6513956793932051

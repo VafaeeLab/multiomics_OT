@@ -1,5 +1,5 @@
 tool,dataset,regime,pair_type,coupling,detector,arm,lam,pct_removed,n,nmi,ari,asw_label,batch_asw,ilisi
 AnchorAE,trevinoR3RNAATAC,diagonal,rna-atac,none,pseudo_label_pseudo_label,baseline,0.75,0.0,2055,0.438509268574233,0.3180095853754076,0.5102372197516137,0.8262437238848659,0.665171483044031
 AnchorAE,trevinoR3RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,upgraded,0.75,0.0,2055,0.438509268574233,0.3180095853754076,0.5102372197516137,0.8262437238848659,0.665171483044031
-AnchorAE,trevinoR3RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,removed,0.75,43.8,1155,0.5455674425665522,0.46046351200493807,0.5227771100435391,0.8279907134675067,0.6403105823471091
-AnchorAE,trevinoR3RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,rand_removed,0.75,43.8,1155,0.47672777646137005,0.35265329612692486,0.5136312298831001,0.813835453066296,0.6983449253049726
+AnchorAE,trevinoR3RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,removed,0.75,48.71,1054,0.5515710191701242,0.46798161421311174,0.5264532406511017,0.8300014677351198,0.6673835037884203
+AnchorAE,trevinoR3RNAATAC,diagonal,rna-atac,cca_ot,pseudo_label_pseudo_label,rand_removed,0.75,48.71,1054,0.4467805909810371,0.3153456809087041,0.5114726751635547,0.8176022961565872,0.7298285703405121

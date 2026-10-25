@@ -9,3 +9,11 @@ Sample_dataset/*/mod2_normalized.mtx
 # intermediates the pipeline rebuilds
 Results/prepared_input/
 Results/Label_transfer_results/_lt_inputs/
+
+# Coupling matrices are large dense arrays (67 MB for the kidney pair) and
+# step 1 rebuilds them in about a minute. The results that matter - the
+# ambiguity scores, the elbow plot and the metric tables - are kept.
+Results/OT_Results/**/*.npy
+
+# The per-tool work copy duplicates the canonical <tool>/<regime>/baseline/ output
+Results/Data_integration_results/*/*RNAATAC/

@@ -1,0 +1,19 @@
+{
+  "dataset": "mutoD2RNAATAC",
+  "regime": "diagonal",
+  "pair_type": "rna_atac",
+  "species": "human",
+  "mod1_min_features_used": 0,
+  "mod1_percent_mt_detected": true,
+  "mod1_percent_mt_median": 0.0574,
+  "mod1_cell_filter": "nFeature_RNA >= 100 & <= 10000; percent.mt < 30 where MT genes exist",
+  "mod1_norm": "SCTransform(regress percent.mt)",
+  "mod2_input": "gene activity (already gene-level counts)",
+  "mod2_norm": "gene activity -> LogNormalize(scale=median nCount)",
+  "n_mod1_cells": 3660,
+  "n_mod1_features": 14582,
+  "n_mod2_cells": 2385,
+  "n_mod2_features": 17495,
+  "shared_features": 13984
+}
+
