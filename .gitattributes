@@ -1,0 +1,19 @@
+# Treat the data and result binaries as binary, so git does not try to diff
+# them and they are never mangled by line-ending conversion.
+*.mtx       binary
+*.mtx.gz    binary
+*.npy       binary
+*.npz       binary
+*.xlsx      binary
+*.png       binary
+*.pdf       binary
+
+# Keep text files consistent across platforms
+*.py        text eol=lf
+*.R         text eol=lf
+*.sh        text eol=lf
+*.md        text eol=lf
+*.csv       text eol=lf
+*.tsv       text eol=lf
+*.json      text eol=lf
+*.yml       text eol=lf
