@@ -183,13 +183,18 @@ matters: on the raw curve the rule almost always runs past the half-way limit
 and so never finds a real elbow.
 
 Three versions are written, because a modality can be scored with no labels at
-all or against the other side's known cell types:
+all or against the other side's known cell types. The folder names are the ones
+used in the paper.
 
 | Folder | Modality 1 scored by | Modality 2 scored by | Use it for |
 |---|---|---|---|
-| `pseudo_label_pseudo_label` | Leiden clusters, no labels | Leiden clusters, no labels | data integration |
-| `pseudo_label_margin_label` | Leiden clusters, no labels | true labels of modality 1 | label transfer, 1 to 2 |
-| `margin_label_pseudo_label` | true labels of modality 2 | Leiden clusters, no labels | label transfer, 2 to 1 |
+| `LF-Amb` | Leiden clusters, no labels | Leiden clusters, no labels | data integration, which is unsupervised |
+| `RefA-Amb` | Leiden clusters, no labels | true labels of modality 1 | label transfer with modality 1 as reference |
+| `RefB-Amb` | true labels of modality 2 | Leiden clusters, no labels | label transfer with modality 2 as reference |
+
+LF-Amb is label-free: no cell-type annotation enters it anywhere. RefA-Amb and
+RefB-Amb each use the labels of one modality, which is the annotation label
+transfer already grants, and never the labels of the modality being scored.
 
 **Output:** a score and a rank for every cell, the list of flagged cells, the
 list of kept cells, the elbow figures, and `summary.json`. That last file

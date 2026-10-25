@@ -17,11 +17,11 @@ between them, because the query's ambiguity is scored by the margin rule
 against the REFERENCE modality's true cell types - the annotation label
 transfer already grants. The query's own labels are never used.
 
-  set A  reference = mod1, query = mod2 -> pseudo_label_margin_label
+  set A  reference = mod1, query = mod2 -> RefA-Amb
          that folder scores mod2 by the margin rule on mod1's labels. Its mod1
          score is the label-free one and is not used here.
 
-  set B  reference = mod2, query = mod1 -> margin_label_pseudo_label
+  set B  reference = mod2, query = mod1 -> RefB-Amb
          mirror image: mod1 is scored by margin on mod2's labels.
 
 Reading the folder names: a margin score for one modality consumes the OTHER
@@ -101,10 +101,10 @@ OUT = os.environ.get("LT_UPGRADE_OUT", f"{LT}/upgrade_lm")
 # Reading the folder names: a margin score for a modality consumes the OTHER
 # modality's labels, so the folder whose query half is "margin_label" is the one
 # named for the opposite modality. mod1->mod2 therefore reads
-# pseudo_label_margin_label (mod2 scored by margin, on mod1's labels), and
-# mod2->mod1 reads margin_label_pseudo_label.
-DIR2DET = {"mod1_to_mod2": ("mod1", "pseudo_label_margin_label"),
-           "mod2_to_mod1": ("mod2", "margin_label_pseudo_label")}
+# RefA-Amb (mod2 scored by margin, on mod1's labels), and
+# mod2->mod1 reads RefB-Amb.
+DIR2DET = {"mod1_to_mod2": ("mod1", "RefA-Amb"),
+           "mod2_to_mod1": ("mod2", "RefB-Amb")}
 SETNAME = {"mod1_to_mod2": "A_ref_mod1", "mod2_to_mod1": "B_ref_mod2"}
 COUPLINGS = ["maxfuse", "ensemble", "cca_ot", "diffusion"]
 LAMBDA = 0.5

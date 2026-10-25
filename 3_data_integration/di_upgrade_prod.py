@@ -21,7 +21,7 @@ The random arm is what makes the removal claim testable. Removal always helps
 some metrics simply by shrinking the problem; only beating a count-matched
 random draw shows the ambiguity ranking picked the right cells.
 
-Ambiguity is pseudo_label_pseudo_label: data integration is unsupervised, so
+Ambiguity is LF-Amb: data integration is unsupervised, so
 neither modality's labels may decide what to drop, and that configuration
 scores both modalities label-free.
 
@@ -70,7 +70,7 @@ import fusion_v11 as EFLOW
 
 DI = f"{DI_ROOT}"
 OUT = f"{DI}/upgrade_prod"
-DET = "pseudo_label_pseudo_label"
+DET = "LF-Amb"
 LAM = {"coassay": 0.1, "diagonal": 0.75}
 COUPLINGS = ["maxfuse", "ensemble", "cca_ot", "diffusion"]
 RAND_DRAWS = 3

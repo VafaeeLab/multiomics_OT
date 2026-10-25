@@ -8,7 +8,7 @@ per (dataset, coupling):
         local_consistency/           ORIGINAL chord rule   (untouched)
         pseudo_label/                ORIGINAL chord rule   (untouched)
         label_margin/                ORIGINAL chord rule   (untouched)
-        pseudo_label_pseudo_label/   mod1 pseudo,  mod2 pseudo
+        LF-Amb/   mod1 pseudo,  mod2 pseudo
         pseudo_label_label_margin/   mod1 pseudo,  mod2 margin
         label_margin_pseudo_label/   mod1 margin,  mod2 pseudo
 
@@ -119,9 +119,9 @@ def write_removals_xlsx(outdir, frames):
 
 # folder -> (mod1 score, mod2 score); the folder name is <mod1>_<mod2>
 CONFIGS = {
-    "pseudo_label_pseudo_label": ("pseudo", "pseudo"),
-    "pseudo_label_margin_label": ("pseudo", "margin"),
-    "margin_label_pseudo_label": ("margin", "pseudo"),
+    "LF-Amb": ("pseudo", "pseudo"),
+    "RefA-Amb": ("pseudo", "margin"),
+    "RefB-Amb": ("margin", "pseudo"),
 }
 # a margin score for one modality reads the OTHER modality's true labels
 NEEDS_LABELS = {"pseudo": None, "margin": "other"}

@@ -66,9 +66,9 @@ FILL = "#c0392b"
 MUTE = "#8a94a6"
 CPLL = {"maxfuse": "MaxFuse", "ensemble": "Ensemble-OT", "cca_ot": "CCA-OT",
         "diffusion": "Diffusion-OT"}
-DETL = {"pseudo_label_pseudo_label": "pseudo-label (both modalities)",
-        "pseudo_label_margin_label": "pseudo-label / margin-label",
-        "margin_label_pseudo_label": "margin-label / pseudo-label",
+DETL = {"LF-Amb": "LF-Amb, label-free on both modalities",
+        "RefA-Amb": "RefA-Amb, modality 1 as the labelled reference",
+        "RefB-Amb": "RefB-Amb, modality 2 as the labelled reference",
         "pseudo_label": "pseudo-label", "label_margin": "margin-label",
         "local_consistency": "local consistency"}
 PAIRLAB = {"rna-adt": "RNA–ADT", "rna-atac": "RNA–ATAC",
@@ -141,7 +141,7 @@ def arg(flag, default=None):
 
 def main():
     cpl = arg("--coupling", "ensemble")
-    det = arg("--detector", "pseudo_label_pseudo_label")
+    det = arg("--detector", "LF-Amb")
     want = arg("--dataset")
     root = arg("--root", ROOT)
     out = arg("--out", f"{root}/elbow_plots")
