@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: >-
+  multiomics_OT: optimal-transport correspondence, ambiguity detection and
+  upgrades for single-cell multi-omics integration and label transfer
+message: If you use this software, please cite both the software and the paper.
+type: software
+authors:
+  - given-names: Mehran
+    family-names: Piran
+    email: m.piran@unsw.edu.au
+    affiliation: School of Biotechnology and Biomolecular Sciences, UNSW Sydney
+  - given-names: Fatemeh
+    family-names: Vafaee
+    email: f.vafaee@unsw.edu.au
+    affiliation: School of Biotechnology and Biomolecular Sciences, UNSW Sydney
+    orcid: https://orcid.org/0000-0002-7521-2417
+repository-code: https://github.com/VafaeeLab/multiomics_OT
+abstract: >-
+  Single-cell multi-omics methods align cells across modalities, integrate them
+  into one embedding and transfer labels between them. All three steps depend on
+  a match between cells in two modalities, and that match is usually hidden
+  inside each tool, so every cell looks equally certain. This software makes the
+  match explicit as a soft coupling matrix built with optimal transport, scores
+  how uncertain each cell's match is, and uses that score to upgrade existing
+  integration and label-transfer tools without retraining them.
+keywords:
+  - single-cell multi-omics
+  - optimal transport
+  - data integration
+  - label transfer
+  - ambiguity detection
+preferred-citation:
+  type: article
+  title: Optimal transport reveals unresolved cells in single-cell multi-omics
+  authors:
+    - given-names: Mehran
+      family-names: Piran
+    - given-names: Fatemeh
+      family-names: Vafaee
+  year: 2026
